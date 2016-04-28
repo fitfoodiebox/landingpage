@@ -1,2 +1,0 @@
-<?php
-//fallback file
