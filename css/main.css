@@ -497,9 +497,14 @@ main p {
   }
 }
 main .coming-soon {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: cursive;
   color: red;
+}
+@media only screen and (min-width: 550px) {
+  main .coming-soon {
+    font-size: 1.75rem;
+  }
 }
 main .cta {
   padding: .5rem 1.5rem;
